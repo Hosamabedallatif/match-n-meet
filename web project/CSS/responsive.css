@@ -1,0 +1,40 @@
+/* Small Devices And Tablets
+@media only screen and (max-width:986px){
+	body{
+	}
+	nav .logo{
+		visibility: hidden;
+	}
+	nav ul li a{
+    text-align: center;
+	padding:0px;
+	margin:0px;
+    text-align: left;
+    }
+}*/
+/* Small Devices And Tablets */
+@media only screen and (max-width:950px){
+    body{
+        width: 100%;
+    }
+    #welcome-section{
+        width: 100%;
+    }
+    nav{
+        max-width: 100%;
+    }
+	nav .logo{
+		visibility:visible;
+        margin-left: 25px;
+	}
+    nav ul li{
+        margin-left: auto;
+        margin-right: auto;    
+    }
+    nav ul li a{
+	padding:0px;
+	margin:0px;
+  }
+	
+    
+}
